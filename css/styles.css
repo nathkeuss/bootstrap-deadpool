@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "roguehero";
+    src: url(../font/roguehero.ttf);
+}
+
+header {
+    background-image: url(../img/deadpoolFond.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 120vh;
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-family: "roguehero";
+    color: rgb(155, 6, 26);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "roguehero";
+    color: black;
+    font-size: 50px;
+}
+
+.h2Rouge {
+    font-size: 50px;
+    color: rgb(155, 6, 26);
+}
+
+.couleurTitre {
+    background-color: rgb(155, 6, 26);
+}
+
+#bgVert {
+    background-color: rgb(157, 147, 23)
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    border-radius: 40px;
+    border: solid 1px black;
+    color: rgba(155, 6, 26, 255);
+    margin-top: 30px;
+    font-family: "roguehero";
+    font-size: 40px;
+}
+
+
+/* ----------------------------- IPAD ----------------------------- */
+
+@media screen and (max-width : 811px) {
+    header {
+        background-image: url(../img/fondIpad.jpg);
+        background-size: cover;
+        background-position: bottom;
+        height: 120vh;
+    }
+
+    span {
+        font-size: 43px;
+    }
+}
+
+/* ----------------------------- IPHONE ----------------------------- */
+
+@media screen and (max-width : 376px) {
+    header {
+        background-image: url(../img/fondIphone.jpg);
+        background-size: cover;
+        background-position: bottom;
+        height: 120vh;
+    }
+    span {
+        font-size: 22px;
+    }
+}
